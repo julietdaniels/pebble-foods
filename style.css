@@ -1,0 +1,119 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: aqua;
+}
+
+.tribe {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.tosh {
+  padding: 10px;
+  margin: auto;
+  padding-inline: 50px;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: blueviolet;
+}
+
+.tosh .classy {
+  text-transform: lowercase;
+}
+
+.tosh .classy1 {
+  text-transform: lowercase;
+}
+
+.tosh .classy2 {
+  text-transform: lowercase;
+}
+
+.tosh .classy3 {
+  text-transform: lowercase;
+}
+
+.vape {
+  color: blueviolet;
+  padding-inline: 10px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
+
+.lit {
+  text-transform: lowercase;
+  padding-inline: 10px;
+  padding: 0px;
+  margin: 30px;
+  list-style-type: lower-roman;
+  color: darkred;
+}
+
+.real {
+  padding: 10px;
+  text-transform: uppercase;
+  padding-inline: 10px;
+  color: blueviolet;
+  text-align: left;
+  text-size-adjust: 10%;
+}
+
+.text {
+  padding: 0px;
+  margin: 20px;
+  padding-inline: 10px;
+  text-transform: lowercase;
+  list-style: inside;
+  color: darkred;
+}
+
+.text .top {
+  margin-inline: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: lowercase;
+}
+
+a {
+  color: purple;
+}
+/*https://www.w3schools.com/css/css_comments.asp*/
+
+ul li {
+  list-style-type: none;
+}
+
+.li-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#li {
+  list-style: lower-roman;
+  align-items: center;
+}
+
+#lii {
+  align-items: center;
+  list-style: lower-roman;
+}
+
+p span {
+  font-style: italic;
+}
+
+.last-span {
+  text-decoration: underline;
+}
+
+.first-span {
+  font-style: normal;
+  color: red;
+}

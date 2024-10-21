@@ -1,0 +1,132 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.art {
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+.art #code {
+  padding-right: 50px;
+  color: rgb(172, 17, 172);
+}
+
+#code:hover {
+  color: rgb(221, 19, 19);
+}
+
+.head {
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  color: rgb(32, 75, 75);
+}
+
+.head #fav {
+  font-size: 50px;
+  padding-bottom: 20px;
+  text-decoration: solid;
+}
+
+.head p {
+  font-size: 20px;
+  text-decoration: wavy;
+}
+
+.head .food {
+  color: red;
+}
+
+.recipe {
+  width: 100%;
+}
+
+.recipe .point {
+  font-size: 20px;
+  padding: 50px;
+  color: rgb(78, 74, 74);
+}
+
+.point h3 {
+  text-align: center;
+  padding: 15px;
+  font-size: 28px;
+}
+
+.point span {
+  color: brown;
+  font-size: 25px;
+}
+
+.ingredients {
+  padding-left: 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+  background-color: rgb(255, 255, 255);
+}
+
+.ingredients h5 {
+  padding: 30px;
+  font-size: 30px;
+  color: rgb(5, 66, 5);
+}
+
+.ingredients li {
+  list-style-type: lower-roman;
+  padding-bottom: 10px;
+}
+
+.ingredients .unit .oha {
+  width: 50px;
+}
+
+.second {
+  font-size: 18px;
+  text-transform: capitalize;
+  background-color: rgb(255, 255, 255);
+  padding-left: 30px;
+}
+
+.second .real {
+  font-size: 25px;
+  color: rgb(5, 66, 5);
+  padding-bottom: 10px;
+}
+
+.second .text li {
+  list-style-type: lower-roman;
+  padding-bottom: 10px;
+}
+
+.link {
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.link h2 {
+  padding-bottom: 10px;
+  color: rgb(32, 75, 75);
+}
+
+/* width */
+
+@media screen and (max-width: 400px) {
+  .head #fav {
+    font-size: 20px;
+  }
+
+  .head p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 401px) {
+}
